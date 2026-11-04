@@ -1,0 +1,19 @@
+{
+  "experiment_id": "template:novice-recovery",
+  "claim_type": "application_hypothesis",
+  "status": "not_run",
+  "title": "Can the intended newcomers recover from a traversal mistake?",
+  "source_claim_ids": ["SK-004-FLIGHT", "SK-004-AUDIENCE", "SK-006-BOUNDARY"],
+  "matching_context": "A traversal game aimed at newcomers. Flight is Kirby's example, not a required mechanic for every game.",
+  "project_id": null,
+  "build_ids": [],
+  "hypothesis": "A recovery opportunity may reduce disproportionate failure while retaining meaningful choices for the intended audience.",
+  "parameters": {"recovery_window": null, "failure_penalty": null, "assistance_mode": null},
+  "comparison": "Observe intended newcomers using the same traversal task with and without one recovery aid. Do not coach them through every mistake. Preserve the game's intended emotional goal.",
+  "measurements": ["Recovery after a missed action", "Understanding of available controls", "Repeated failure points", "Observed frustration or disengagement", "Meaningful engagement rather than only completion"],
+  "failure_signals": ["Aid is not discoverable", "Aid removes the game's desired challenge", "Participants complete without understanding or engagement", "Experienced testers are mistaken for the target audience"],
+  "participants_context": null,
+  "observations": [],
+  "decision": null,
+  "limitations": "No test performed. Source context is beginner-focused Kirby on Game Boy, with falling still costing a life."
+}

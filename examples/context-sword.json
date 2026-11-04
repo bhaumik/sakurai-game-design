@@ -1,0 +1,11 @@
+{
+  "audience": "experienced action players",
+  "genre": "sword-combat action",
+  "mechanics": ["sword attacks", "hitstop", "physical knockback"],
+  "excluded_mechanics": [],
+  "desired_tension": "readable high-stakes combat",
+  "core_appeal": "precise, satisfying sword contact",
+  "platform": "PC",
+  "input": "controller",
+  "stage": "feel prototype"
+}

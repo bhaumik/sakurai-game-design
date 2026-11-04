@@ -1,0 +1,806 @@
+{
+  "schema_version": "1.0",
+  "claims": [
+    {
+      "claim_id": "SK-003-IMPACT",
+      "item_ids": [
+        "FEEL-02"
+      ],
+      "field": "why",
+      "text": "A brief hit stop changes the perceived weight of a hit.",
+      "claim_type": "source_statement",
+      "review_status": "retained_text_checked",
+      "evidence": [
+        {
+          "document_id": "youtube:OdVkEOzdCPw",
+          "locator": {
+            "kind": "timestamp",
+            "start_seconds": 33,
+            "end_seconds": 63,
+            "segment_ids": [
+              "youtube:OdVkEOzdCPw:t000033",
+              "youtube:OdVkEOzdCPw:t000048"
+            ]
+          },
+          "support_type": "direct_retained_text"
+        }
+      ],
+      "limitations": "Compared with the inherited English OCR transcript only. Not checked against original video or Japanese narration. Time ends mark a reading range, not exact subtitle boundaries.",
+      "context": {
+        "event": "attack contact",
+        "goal": "perceived impact"
+      }
+    },
+    {
+      "claim_id": "SK-003-EVENT",
+      "item_ids": [
+        "FEEL-02"
+      ],
+      "field": "example",
+      "text": "Kirby Adventure boss defeats and Fantasy Zone player damage illustrate pauses making success or failure legible.",
+      "claim_type": "source_example",
+      "review_status": "retained_text_checked",
+      "evidence": [
+        {
+          "document_id": "youtube:OdVkEOzdCPw",
+          "locator": {
+            "kind": "timestamp",
+            "start_seconds": 63,
+            "end_seconds": 171,
+            "segment_ids": [
+              "youtube:OdVkEOzdCPw:t000063",
+              "youtube:OdVkEOzdCPw:t000081",
+              "youtube:OdVkEOzdCPw:t000098",
+              "youtube:OdVkEOzdCPw:t000114",
+              "youtube:OdVkEOzdCPw:t000125",
+              "youtube:OdVkEOzdCPw:t000139",
+              "youtube:OdVkEOzdCPw:t000152"
+            ]
+          },
+          "support_type": "direct_retained_text"
+        }
+      ],
+      "limitations": "Compared with the inherited English OCR transcript only. Not checked against original video or Japanese narration. Time ends mark a reading range, not exact subtitle boundaries.",
+      "context": {
+        "games": [
+          "Kirby Adventure",
+          "Fantasy Zone"
+        ],
+        "events": [
+          "boss defeated",
+          "player hit"
+        ]
+      }
+    },
+    {
+      "claim_id": "SK-003-LAYER",
+      "item_ids": [
+        "FEEL-02"
+      ],
+      "field": "how_to_apply",
+      "text": "The source compares shooting-game effects without effects and with screen stop, shake, and slow motion; it gives no universal hitstop frame count.",
+      "claim_type": "source_statement",
+      "review_status": "retained_text_checked",
+      "evidence": [
+        {
+          "document_id": "youtube:OdVkEOzdCPw",
+          "locator": {
+            "kind": "timestamp",
+            "start_seconds": 191,
+            "end_seconds": 259,
+            "segment_ids": [
+              "youtube:OdVkEOzdCPw:t000191",
+              "youtube:OdVkEOzdCPw:t000215"
+            ]
+          },
+          "support_type": "direct_retained_text"
+        }
+      ],
+      "limitations": "Compared with the inherited English OCR transcript only. Not checked against original video or Japanese narration. Time ends mark a reading range, not exact subtitle boundaries.",
+      "context": {
+        "genre": "shooting",
+        "verification_needed": "watch visual comparison before copying the timing"
+      }
+    },
+    {
+      "claim_id": "SK-004-ENEMIES",
+      "item_ids": [
+        "BAL-02",
+        "CASE-01"
+      ],
+      "field": "example",
+      "text": "Kirby can inhale and spit out enemies to take advantage of foes already on screen.",
+      "claim_type": "source_example",
+      "review_status": "retained_text_checked",
+      "evidence": [
+        {
+          "document_id": "youtube:PBRt2D2YN44",
+          "locator": {
+            "kind": "timestamp",
+            "start_seconds": 90,
+            "end_seconds": 108,
+            "segment_ids": [
+              "youtube:PBRt2D2YN44:t000090"
+            ]
+          },
+          "support_type": "direct_retained_text"
+        }
+      ],
+      "limitations": "Compared with the inherited English OCR transcript only. Not checked against original video or Japanese narration. Time ends mark a reading range, not exact subtitle boundaries.",
+      "context": {
+        "game": "Kirbys Dream Land",
+        "platform": "Game Boy"
+      }
+    },
+    {
+      "claim_id": "SK-004-FLIGHT",
+      "item_ids": [
+        "BAL-02",
+        "CASE-01"
+      ],
+      "field": "why",
+      "text": "Flight reduces the risk from missed jumps; falling still costs a life. The small Game Boy screen made easier traversal and skipping enemies acceptable for the intended newcomers.",
+      "claim_type": "source_statement",
+      "review_status": "retained_text_checked",
+      "evidence": [
+        {
+          "document_id": "youtube:PBRt2D2YN44",
+          "locator": {
+            "kind": "timestamp",
+            "start_seconds": 108,
+            "end_seconds": 165,
+            "segment_ids": [
+              "youtube:PBRt2D2YN44:t000108",
+              "youtube:PBRt2D2YN44:t000127",
+              "youtube:PBRt2D2YN44:t000149"
+            ]
+          },
+          "support_type": "direct_retained_text"
+        }
+      ],
+      "limitations": "Compared with the inherited English OCR transcript only. Not checked against original video or Japanese narration. Time ends mark a reading range, not exact subtitle boundaries.",
+      "context": {
+        "audience": "beginners",
+        "platform": "Game Boy",
+        "retained_penalty": "falling costs a life"
+      }
+    },
+    {
+      "claim_id": "SK-004-AUDIENCE",
+      "item_ids": [
+        "BAL-01",
+        "BAL-02",
+        "CASE-01"
+      ],
+      "field": "why",
+      "text": "The first Kirby was deliberately made accessible to new players despite concerns about reducing risks.",
+      "claim_type": "source_statement",
+      "review_status": "retained_text_checked",
+      "evidence": [
+        {
+          "document_id": "youtube:PBRt2D2YN44",
+          "locator": {
+            "kind": "timestamp",
+            "start_seconds": 165,
+            "end_seconds": 191,
+            "segment_ids": [
+              "youtube:PBRt2D2YN44:t000165",
+              "youtube:PBRt2D2YN44:t000178"
+            ]
+          },
+          "support_type": "direct_retained_text"
+        }
+      ],
+      "limitations": "Compared with the inherited English OCR transcript only. Not checked against original video or Japanese narration. Time ends mark a reading range, not exact subtitle boundaries.",
+      "context": {
+        "audience": "new players",
+        "goal": "welcome newcomers"
+      }
+    },
+    {
+      "claim_id": "SK-005-RATE",
+      "item_ids": [
+        "FEEL-18",
+        "FEEL-T22"
+      ],
+      "field": "what",
+      "text": "The source compares 60 and 30 fps for appearance and smoothness of control, while acknowledging 30 fps as adequate and the rendering-budget tradeoff.",
+      "claim_type": "source_statement",
+      "review_status": "retained_text_checked",
+      "evidence": [
+        {
+          "document_id": "youtube:Rjdmi7628GM",
+          "locator": {
+            "kind": "timestamp",
+            "start_seconds": 70,
+            "end_seconds": 104,
+            "segment_ids": [
+              "youtube:Rjdmi7628GM:t000070",
+              "youtube:Rjdmi7628GM:t000084"
+            ]
+          },
+          "support_type": "direct_retained_text"
+        }
+      ],
+      "limitations": "Compared with the inherited English OCR transcript only. Not checked against original video or Japanese narration. Time ends mark a reading range, not exact subtitle boundaries.",
+      "context": {
+        "platform": "hardware/display capable of comparison",
+        "tradeoff": "visual work versus frame frequency"
+      }
+    },
+    {
+      "claim_id": "SK-005-SIMULATION",
+      "item_ids": [
+        "TECH-04"
+      ],
+      "field": "example",
+      "text": "Drawing fewer images is distinguished from slowing the game itself; historical screen-interrupt timing made PAL ports of his NES/SNES work run slower.",
+      "claim_type": "source_example",
+      "review_status": "retained_text_checked",
+      "evidence": [
+        {
+          "document_id": "youtube:Rjdmi7628GM",
+          "locator": {
+            "kind": "timestamp",
+            "start_seconds": 104,
+            "end_seconds": 220,
+            "segment_ids": [
+              "youtube:Rjdmi7628GM:t000104",
+              "youtube:Rjdmi7628GM:t000121",
+              "youtube:Rjdmi7628GM:t000138",
+              "youtube:Rjdmi7628GM:t000148",
+              "youtube:Rjdmi7628GM:t000167",
+              "youtube:Rjdmi7628GM:t000184",
+              "youtube:Rjdmi7628GM:t000200"
+            ]
+          },
+          "support_type": "direct_retained_text"
+        }
+      ],
+      "limitations": "Compared with the inherited English OCR transcript only. Not checked against original video or Japanese narration. Time ends mark a reading range, not exact subtitle boundaries.",
+      "context": {
+        "platforms": [
+          "NES",
+          "SNES",
+          "NTSC",
+          "PAL"
+        ],
+        "scope": "historical example, not a prescribed modern engine implementation"
+      }
+    },
+    {
+      "claim_id": "SK-005-TARGET",
+      "item_ids": [
+        "TECH-05"
+      ],
+      "field": "how_to_apply",
+      "text": "Choosing and profiling a performance target before content expansion is a project application of the source tradeoff, not an instruction established by episode 5 alone.",
+      "claim_type": "application_hypothesis",
+      "review_status": "retained_text_checked",
+      "evidence": [
+        {
+          "document_id": "youtube:Rjdmi7628GM",
+          "locator": {
+            "kind": "timestamp",
+            "start_seconds": 70,
+            "end_seconds": 104,
+            "segment_ids": [
+              "youtube:Rjdmi7628GM:t000070",
+              "youtube:Rjdmi7628GM:t000084"
+            ]
+          },
+          "support_type": "direct_retained_text"
+        }
+      ],
+      "limitations": "Compared with the inherited English OCR transcript only. Not checked against original video or Japanese narration. Time ends mark a reading range, not exact subtitle boundaries.",
+      "context": {
+        "verification_needed": "read the other cited episodes before attributing the full TECH-05 prescription to Sakurai"
+      }
+    },
+    {
+      "claim_id": "SK-006-PROXIMITY",
+      "item_ids": [
+        "ESS-01"
+      ],
+      "field": "example",
+      "text": "In Space Invaders, moving into a useful firing position also exposes the cannon to incoming beams; the spatial geometry creates the decision.",
+      "claim_type": "source_example",
+      "review_status": "retained_text_checked",
+      "evidence": [
+        {
+          "document_id": "youtube:FXqEykD5Ub4",
+          "locator": {
+            "kind": "timestamp",
+            "start_seconds": 49,
+            "end_seconds": 150,
+            "segment_ids": [
+              "youtube:FXqEykD5Ub4:t000049",
+              "youtube:FXqEykD5Ub4:t000066",
+              "youtube:FXqEykD5Ub4:t000092",
+              "youtube:FXqEykD5Ub4:t000111",
+              "youtube:FXqEykD5Ub4:t000134"
+            ]
+          },
+          "support_type": "direct_retained_text"
+        }
+      ],
+      "limitations": "Compared with the inherited English OCR transcript only. Not checked against original video or Japanese narration. Time ends mark a reading range, not exact subtitle boundaries.",
+      "context": {
+        "game": "Space Invaders",
+        "mechanics": [
+          "aligned shots",
+          "positioning"
+        ]
+      }
+    },
+    {
+      "claim_id": "SK-006-MECHANIC",
+      "item_ids": [
+        "ESS-01",
+        "ESS-02"
+      ],
+      "field": "why",
+      "text": "The source distinguishes authored risk/reward mechanics from strategy, the players management of those risks.",
+      "claim_type": "source_statement",
+      "review_status": "retained_text_checked",
+      "evidence": [
+        {
+          "document_id": "youtube:FXqEykD5Ub4",
+          "locator": {
+            "kind": "timestamp",
+            "start_seconds": 134,
+            "end_seconds": 170,
+            "segment_ids": [
+              "youtube:FXqEykD5Ub4:t000134",
+              "youtube:FXqEykD5Ub4:t000150"
+            ]
+          },
+          "support_type": "direct_retained_text"
+        }
+      ],
+      "limitations": "Compared with the inherited English OCR transcript only. Not checked against original video or Japanese narration. Time ends mark a reading range, not exact subtitle boundaries.",
+      "context": {}
+    },
+    {
+      "claim_id": "SK-006-GEOMETRY",
+      "item_ids": [
+        "ESS-01"
+      ],
+      "field": "how_to_apply",
+      "text": "Space Invaders cannon width, interception direction, and cover shape the relation between exposure and an opportunity to hit.",
+      "claim_type": "source_example",
+      "review_status": "retained_text_checked",
+      "evidence": [
+        {
+          "document_id": "youtube:FXqEykD5Ub4",
+          "locator": {
+            "kind": "timestamp",
+            "start_seconds": 170,
+            "end_seconds": 305,
+            "segment_ids": [
+              "youtube:FXqEykD5Ub4:t000170",
+              "youtube:FXqEykD5Ub4:t000182",
+              "youtube:FXqEykD5Ub4:t000200",
+              "youtube:FXqEykD5Ub4:t000211",
+              "youtube:FXqEykD5Ub4:t000233",
+              "youtube:FXqEykD5Ub4:t000248",
+              "youtube:FXqEykD5Ub4:t000267",
+              "youtube:FXqEykD5Ub4:t000282"
+            ]
+          },
+          "support_type": "direct_retained_text"
+        }
+      ],
+      "limitations": "Compared with the inherited English OCR transcript only. Not checked against original video or Japanese narration. Time ends mark a reading range, not exact subtitle boundaries.",
+      "context": {
+        "game": "Space Invaders",
+        "parameters": [
+          "cannon width",
+          "projectile path",
+          "cover"
+        ]
+      }
+    },
+    {
+      "claim_id": "SK-006-MARIO",
+      "item_ids": [
+        "ESS-01"
+      ],
+      "field": "example",
+      "text": "Super Mario Bros. jumping and shell pursuit combine opportunities to defeat enemies or earn rewards with the risk of contact and returning shells.",
+      "claim_type": "source_example",
+      "review_status": "retained_text_checked",
+      "evidence": [
+        {
+          "document_id": "youtube:FXqEykD5Ub4",
+          "locator": {
+            "kind": "timestamp",
+            "start_seconds": 394,
+            "end_seconds": 504,
+            "segment_ids": [
+              "youtube:FXqEykD5Ub4:t000394",
+              "youtube:FXqEykD5Ub4:t000412",
+              "youtube:FXqEykD5Ub4:t000421",
+              "youtube:FXqEykD5Ub4:t000436",
+              "youtube:FXqEykD5Ub4:t000457",
+              "youtube:FXqEykD5Ub4:t000469",
+              "youtube:FXqEykD5Ub4:t000485"
+            ]
+          },
+          "support_type": "direct_retained_text"
+        }
+      ],
+      "limitations": "Compared with the inherited English OCR transcript only. Not checked against original video or Japanese narration. Time ends mark a reading range, not exact subtitle boundaries.",
+      "context": {
+        "game": "Super Mario Bros.",
+        "mechanics": [
+          "stomping",
+          "shell pursuit"
+        ]
+      }
+    },
+    {
+      "claim_id": "SK-006-BOUNDARY",
+      "item_ids": [
+        "ESS-01",
+        "ESS-17",
+        "BAL-01"
+      ],
+      "field": "why",
+      "text": "Risk/reward is only part of a games broader identity; Sakurai also describes deliberately simplifying Kirby for wider appeal.",
+      "claim_type": "source_statement",
+      "review_status": "retained_text_checked",
+      "evidence": [
+        {
+          "document_id": "youtube:FXqEykD5Ub4",
+          "locator": {
+            "kind": "timestamp",
+            "start_seconds": 528,
+            "end_seconds": 581,
+            "segment_ids": [
+              "youtube:FXqEykD5Ub4:t000528",
+              "youtube:FXqEykD5Ub4:t000545",
+              "youtube:FXqEykD5Ub4:t000562"
+            ]
+          },
+          "support_type": "direct_retained_text"
+        }
+      ],
+      "limitations": "Compared with the inherited English OCR transcript only. Not checked against original video or Japanese narration. Time ends mark a reading range, not exact subtitle boundaries.",
+      "context": {
+        "qualifies": "risk/reward is not a universal requirement for every kind of fun"
+      }
+    },
+    {
+      "claim_id": "SK-026-ALTERNATIVES",
+      "item_ids": [
+        "ESS-17"
+      ],
+      "field": "why",
+      "text": "Control, story, simulation, and building can provide enjoyment that does not depend purely on risk/reward.",
+      "claim_type": "source_statement",
+      "review_status": "retained_text_checked",
+      "evidence": [
+        {
+          "document_id": "youtube:Dq7X8-lB0is",
+          "locator": {
+            "kind": "timestamp",
+            "start_seconds": 4,
+            "end_seconds": 273,
+            "segment_ids": [
+              "youtube:Dq7X8-lB0is:t000004",
+              "youtube:Dq7X8-lB0is:t000020",
+              "youtube:Dq7X8-lB0is:t000026",
+              "youtube:Dq7X8-lB0is:t000043",
+              "youtube:Dq7X8-lB0is:t000063",
+              "youtube:Dq7X8-lB0is:t000076",
+              "youtube:Dq7X8-lB0is:t000100",
+              "youtube:Dq7X8-lB0is:t000116",
+              "youtube:Dq7X8-lB0is:t000140",
+              "youtube:Dq7X8-lB0is:t000163",
+              "youtube:Dq7X8-lB0is:t000180",
+              "youtube:Dq7X8-lB0is:t000197",
+              "youtube:Dq7X8-lB0is:t000215",
+              "youtube:Dq7X8-lB0is:t000232",
+              "youtube:Dq7X8-lB0is:t000256"
+            ]
+          },
+          "support_type": "direct_retained_text"
+        }
+      ],
+      "limitations": "Compared with the inherited English OCR transcript only. Not checked against original video or Japanese narration. Time ends mark a reading range, not exact subtitle boundaries.",
+      "context": {
+        "genres": [
+          "visual novel",
+          "simulation",
+          "building"
+        ],
+        "interpretation": "source categories overlap"
+      }
+    },
+    {
+      "claim_id": "SK-026-RHYTHM",
+      "item_ids": [
+        "ESS-17"
+      ],
+      "field": "example",
+      "text": "Rhythm has its own appeal. Risk and reward may arise depending on the design; the strict beatmania example does not establish that every rhythm game must punish timing harshly.",
+      "claim_type": "source_example",
+      "review_status": "retained_text_checked",
+      "evidence": [
+        {
+          "document_id": "youtube:Dq7X8-lB0is",
+          "locator": {
+            "kind": "timestamp",
+            "start_seconds": 273,
+            "end_seconds": 325,
+            "segment_ids": [
+              "youtube:Dq7X8-lB0is:t000273",
+              "youtube:Dq7X8-lB0is:t000294",
+              "youtube:Dq7X8-lB0is:t000307"
+            ]
+          },
+          "support_type": "direct_retained_text"
+        }
+      ],
+      "limitations": "Compared with the inherited English OCR transcript only. Not checked against original video or Japanese narration. Time ends mark a reading range, not exact subtitle boundaries.",
+      "context": {
+        "game": "beatmania series",
+        "preserved_modality": "may, depending on design"
+      }
+    },
+    {
+      "claim_id": "SK-047-COLLISION",
+      "item_ids": [
+        "FEEL-08",
+        "FEEL-T02"
+      ],
+      "field": "how",
+      "text": "In Smash Ultimate, the receiving model shakes more than the attacker, but collision stays in place so shake does not cause hits to miss.",
+      "claim_type": "source_statement",
+      "review_status": "retained_text_checked",
+      "evidence": [
+        {
+          "document_id": "youtube:tycbMSjDDLg",
+          "locator": {
+            "kind": "timestamp",
+            "start_seconds": 58,
+            "end_seconds": 116,
+            "segment_ids": [
+              "youtube:tycbMSjDDLg:t000058",
+              "youtube:tycbMSjDDLg:t000072",
+              "youtube:tycbMSjDDLg:t000093"
+            ]
+          },
+          "support_type": "direct_retained_text"
+        }
+      ],
+      "limitations": "Compared with the inherited English OCR transcript only. Not checked against original video or Japanese narration. Time ends mark a reading range, not exact subtitle boundaries.",
+      "context": {
+        "game": "Super Smash Bros. Ultimate",
+        "rendering": "visual model transform separated from collision"
+      }
+    },
+    {
+      "claim_id": "SK-047-GROUNDED",
+      "item_ids": [
+        "FEEL-T02"
+      ],
+      "field": "when",
+      "text": "Grounded fighters shake horizontally because vertical model shake would clip through the 3D floor; airborne fighters also shake vertically.",
+      "claim_type": "source_statement",
+      "review_status": "retained_text_checked",
+      "evidence": [
+        {
+          "document_id": "youtube:tycbMSjDDLg",
+          "locator": {
+            "kind": "timestamp",
+            "start_seconds": 93,
+            "end_seconds": 135,
+            "segment_ids": [
+              "youtube:tycbMSjDDLg:t000093",
+              "youtube:tycbMSjDDLg:t000116"
+            ]
+          },
+          "support_type": "direct_retained_text"
+        }
+      ],
+      "limitations": "Compared with the inherited English OCR transcript only. Not checked against original video or Japanese narration. Time ends mark a reading range, not exact subtitle boundaries.",
+      "context": {
+        "game": "Super Smash Bros. Ultimate",
+        "constraint": "grounded 3D floor clipping"
+      }
+    },
+    {
+      "claim_id": "SK-047-STRENGTH",
+      "item_ids": [
+        "FEEL-T01"
+      ],
+      "field": "how",
+      "text": "Smash Ultimate scales hit stop with attack strength and an additional multiplier, including Marths sword tip and character-source fidelity.",
+      "claim_type": "source_statement",
+      "review_status": "retained_text_checked",
+      "evidence": [
+        {
+          "document_id": "youtube:tycbMSjDDLg",
+          "locator": {
+            "kind": "timestamp",
+            "start_seconds": 150,
+            "end_seconds": 188,
+            "segment_ids": [
+              "youtube:tycbMSjDDLg:t000150",
+              "youtube:tycbMSjDDLg:t000165"
+            ]
+          },
+          "support_type": "direct_retained_text"
+        }
+      ],
+      "limitations": "Compared with the inherited English OCR transcript only. Not checked against original video or Japanese narration. Time ends mark a reading range, not exact subtitle boundaries.",
+      "context": {
+        "game": "Super Smash Bros. Ultimate",
+        "parameters": [
+          "strength",
+          "per-move multiplier"
+        ]
+      }
+    },
+    {
+      "claim_id": "SK-047-BLEND",
+      "item_ids": [
+        "FEEL-T03"
+      ],
+      "field": "how",
+      "text": "The victim transitions toward the damage pose across about four frames. This is a pose-blend duration, not a general hitstop duration.",
+      "claim_type": "source_statement",
+      "review_status": "retained_text_checked",
+      "evidence": [
+        {
+          "document_id": "youtube:tycbMSjDDLg",
+          "locator": {
+            "kind": "timestamp",
+            "start_seconds": 201,
+            "end_seconds": 229,
+            "segment_ids": [
+              "youtube:tycbMSjDDLg:t000201",
+              "youtube:tycbMSjDDLg:t000212"
+            ]
+          },
+          "support_type": "direct_retained_text"
+        }
+      ],
+      "limitations": "Compared with the inherited English OCR transcript only. Not checked against original video or Japanese narration. Time ends mark a reading range, not exact subtitle boundaries.",
+      "context": {
+        "game": "Super Smash Bros. Ultimate",
+        "numeric_scope": "damage-pose blend only"
+      }
+    },
+    {
+      "claim_id": "SK-047-CREEP",
+      "item_ids": [
+        "FEEL-T03"
+      ],
+      "field": "when",
+      "text": "A sword attackers animation can creep during hit stop, but it is toggled per attack and some attacks are better without it.",
+      "claim_type": "source_statement",
+      "review_status": "retained_text_checked",
+      "evidence": [
+        {
+          "document_id": "youtube:tycbMSjDDLg",
+          "locator": {
+            "kind": "timestamp",
+            "start_seconds": 229,
+            "end_seconds": 270,
+            "segment_ids": [
+              "youtube:tycbMSjDDLg:t000229",
+              "youtube:tycbMSjDDLg:t000251"
+            ]
+          },
+          "support_type": "direct_retained_text"
+        }
+      ],
+      "limitations": "Compared with the inherited English OCR transcript only. Not checked against original video or Japanese narration. Time ends mark a reading range, not exact subtitle boundaries.",
+      "context": {
+        "mechanic": "sword attack",
+        "exclusion": "not every attack uses this effect"
+      }
+    },
+    {
+      "claim_id": "SK-047-MULTIPLAYER",
+      "item_ids": [
+        "FEEL-T01",
+        "FEEL-T02"
+      ],
+      "field": "when",
+      "text": "The source says multiplayer battles use less hit stop and distant camera views use more visible model shake.",
+      "claim_type": "source_statement",
+      "review_status": "retained_text_checked",
+      "evidence": [
+        {
+          "document_id": "youtube:tycbMSjDDLg",
+          "locator": {
+            "kind": "timestamp",
+            "start_seconds": 270,
+            "end_seconds": 306,
+            "segment_ids": [
+              "youtube:tycbMSjDDLg:t000270",
+              "youtube:tycbMSjDDLg:t000293"
+            ]
+          },
+          "support_type": "direct_retained_text"
+        }
+      ],
+      "limitations": "Compared with the inherited English OCR transcript only. Not checked against original video or Japanese narration. Time ends mark a reading range, not exact subtitle boundaries.",
+      "context": {
+        "game": "Super Smash Bros. Ultimate",
+        "constraints": [
+          "multiplayer flow",
+          "camera distance"
+        ]
+      }
+    },
+    {
+      "claim_id": "SK-145-PARAMETERS",
+      "item_ids": [
+        "FEEL-17",
+        "FEEL-T14",
+        "ESS-T20"
+      ],
+      "field": "how",
+      "text": "Smash knockback depends on attack damage and accumulated target damage; per-attack direction/multiplier and target weight/fall speed support tuning.",
+      "claim_type": "source_statement",
+      "review_status": "retained_text_checked",
+      "evidence": [
+        {
+          "document_id": "youtube:HVktK4a9Yfo",
+          "locator": {
+            "kind": "timestamp",
+            "start_seconds": 20,
+            "end_seconds": 107,
+            "segment_ids": [
+              "youtube:HVktK4a9Yfo:t000020",
+              "youtube:HVktK4a9Yfo:t000048",
+              "youtube:HVktK4a9Yfo:t000068",
+              "youtube:HVktK4a9Yfo:t000087"
+            ]
+          },
+          "support_type": "direct_retained_text"
+        }
+      ],
+      "limitations": "Compared with the inherited English OCR transcript only. Not checked against original video or Japanese narration. Time ends mark a reading range, not exact subtitle boundaries.",
+      "context": {
+        "game": "Super Smash Bros. series",
+        "core_mechanic": "launching opponents"
+      }
+    },
+    {
+      "claim_id": "SK-145-MULTIHIT",
+      "item_ids": [
+        "FEEL-T15"
+      ],
+      "field": "how",
+      "text": "Marios Super Jump Punch uses fixed knockback for successive hits and standard knockback on its last hit so changing damage does not break the sequence.",
+      "claim_type": "source_example",
+      "review_status": "retained_text_checked",
+      "evidence": [
+        {
+          "document_id": "youtube:HVktK4a9Yfo",
+          "locator": {
+            "kind": "timestamp",
+            "start_seconds": 138,
+            "end_seconds": 170,
+            "segment_ids": [
+              "youtube:HVktK4a9Yfo:t000138",
+              "youtube:HVktK4a9Yfo:t000161"
+            ]
+          },
+          "support_type": "direct_retained_text"
+        }
+      ],
+      "limitations": "Compared with the inherited English OCR transcript only. Not checked against original video or Japanese narration. Time ends mark a reading range, not exact subtitle boundaries.",
+      "context": {
+        "mechanic": "multi-hit launch attack",
+        "game": "Super Smash Bros. series"
+      }
+    }
+  ]
+}

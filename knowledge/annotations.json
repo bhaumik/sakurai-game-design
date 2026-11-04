@@ -1,0 +1,618 @@
+{
+  "schema_version": "1.0",
+  "items": {
+    "ESS-01": {
+      "conditions": {
+        "requires_any": [
+          "risk_reward",
+          "combat",
+          "competitive",
+          "action",
+          "challenge"
+        ],
+        "excludes_any": [
+          "no_challenge",
+          "no_pressure"
+        ]
+      },
+      "applicability_basis": "curator_inference",
+      "evidence_claim_ids": [
+        "SK-006-PROXIMITY",
+        "SK-006-MECHANIC",
+        "SK-006-GEOMETRY",
+        "SK-006-MARIO",
+        "SK-006-BOUNDARY"
+      ],
+      "related": [
+        {
+          "item_id": "ESS-17",
+          "relation": "qualified_by"
+        }
+      ]
+    },
+    "ESS-02": {
+      "conditions": {
+        "requires_any": [
+          "risk_reward",
+          "combat",
+          "competitive",
+          "action",
+          "challenge"
+        ],
+        "excludes_any": [
+          "no_challenge",
+          "no_pressure"
+        ]
+      },
+      "applicability_basis": "curator_inference",
+      "evidence_claim_ids": [
+        "SK-006-MECHANIC"
+      ],
+      "related": [
+        {
+          "item_id": "ESS-17",
+          "relation": "qualified_by"
+        }
+      ]
+    },
+    "ESS-03": {
+      "conditions": {
+        "requires_any": [
+          "risk_reward",
+          "combat",
+          "competitive",
+          "action",
+          "challenge"
+        ],
+        "excludes_any": [
+          "no_challenge",
+          "no_pressure"
+        ]
+      },
+      "applicability_basis": "curator_inference",
+      "evidence_claim_ids": [],
+      "related": [
+        {
+          "item_id": "ESS-17",
+          "relation": "qualified_by"
+        }
+      ]
+    },
+    "ESS-04": {
+      "conditions": {
+        "requires_any": [
+          "challenge",
+          "combat",
+          "action",
+          "time_pressure"
+        ],
+        "excludes_any": [
+          "no_pressure",
+          "no_challenge"
+        ]
+      },
+      "applicability_basis": "curator_inference",
+      "evidence_claim_ids": [],
+      "related": [
+        {
+          "item_id": "ESS-17",
+          "relation": "qualified_by"
+        }
+      ]
+    },
+    "ESS-19": {
+      "conditions": {
+        "requires_any": [
+          "challenge",
+          "combat",
+          "action",
+          "time_pressure"
+        ],
+        "excludes_any": [
+          "no_pressure",
+          "no_challenge"
+        ]
+      },
+      "applicability_basis": "curator_inference",
+      "evidence_claim_ids": [],
+      "related": [
+        {
+          "item_id": "ESS-17",
+          "relation": "qualified_by"
+        }
+      ]
+    },
+    "ESS-T10": {
+      "conditions": {
+        "requires_any": [
+          "challenge",
+          "combat",
+          "action",
+          "time_pressure"
+        ],
+        "excludes_any": [
+          "no_pressure",
+          "no_challenge"
+        ]
+      },
+      "applicability_basis": "curator_inference",
+      "evidence_claim_ids": [],
+      "related": [
+        {
+          "item_id": "ESS-17",
+          "relation": "qualified_by"
+        }
+      ]
+    },
+    "ESS-T13": {
+      "conditions": {
+        "requires_any": [
+          "challenge",
+          "combat",
+          "action",
+          "time_pressure"
+        ],
+        "excludes_any": [
+          "no_pressure",
+          "no_challenge"
+        ]
+      },
+      "applicability_basis": "curator_inference",
+      "evidence_claim_ids": [],
+      "related": [
+        {
+          "item_id": "ESS-17",
+          "relation": "qualified_by"
+        }
+      ]
+    },
+    "ESS-T16": {
+      "conditions": {
+        "requires_any": [
+          "challenge",
+          "combat",
+          "action",
+          "time_pressure"
+        ],
+        "excludes_any": [
+          "no_pressure",
+          "no_challenge"
+        ]
+      },
+      "applicability_basis": "curator_inference",
+      "evidence_claim_ids": [],
+      "related": [
+        {
+          "item_id": "ESS-17",
+          "relation": "qualified_by"
+        }
+      ]
+    },
+    "ESS-17": {
+      "conditions": {
+        "requires_any": [],
+        "excludes_any": []
+      },
+      "applicability_basis": "curator_inference",
+      "evidence_claim_ids": [
+        "SK-006-BOUNDARY",
+        "SK-026-ALTERNATIVES",
+        "SK-026-RHYTHM"
+      ],
+      "related": [
+        {
+          "item_id": "ESS-01",
+          "relation": "qualifies"
+        }
+      ]
+    },
+    "BAL-01": {
+      "conditions": {
+        "requires_any": [],
+        "excludes_any": []
+      },
+      "applicability_basis": "curator_inference",
+      "evidence_claim_ids": [
+        "SK-004-AUDIENCE",
+        "SK-006-BOUNDARY"
+      ],
+      "related": [
+        {
+          "item_id": "ESS-17",
+          "relation": "related"
+        }
+      ],
+      "concept_group": "target-audience-risk"
+    },
+    "CASE-01": {
+      "conditions": {
+        "requires_any": [],
+        "excludes_any": []
+      },
+      "applicability_basis": "curator_inference",
+      "evidence_claim_ids": [
+        "SK-004-ENEMIES",
+        "SK-004-FLIGHT",
+        "SK-004-AUDIENCE"
+      ],
+      "related": [
+        {
+          "item_id": "ESS-17",
+          "relation": "related"
+        }
+      ],
+      "concept_group": "target-audience-risk"
+    },
+    "BAL-02": {
+      "conditions": {
+        "requires_any": [
+          "beginner",
+          "novice",
+          "casual"
+        ],
+        "excludes_any": []
+      },
+      "applicability_basis": "curator_inference",
+      "evidence_claim_ids": [
+        "SK-004-ENEMIES",
+        "SK-004-FLIGHT",
+        "SK-004-AUDIENCE"
+      ],
+      "related": [
+        {
+          "item_id": "ESS-17",
+          "relation": "related"
+        }
+      ]
+    },
+    "ESS-T04": {
+      "conditions": {
+        "requires_any": [
+          "fighting",
+          "reversal",
+          "anti_air"
+        ],
+        "excludes_any": [
+          "no_combat"
+        ]
+      },
+      "applicability_basis": "curator_inference",
+      "evidence_claim_ids": [],
+      "related": []
+    },
+    "PLAN-T22": {
+      "conditions": {
+        "requires_any": [
+          "action"
+        ],
+        "excludes_any": [
+          "no_combat"
+        ]
+      },
+      "applicability_basis": "curator_inference",
+      "evidence_claim_ids": [],
+      "related": []
+    },
+    "FEEL-02": {
+      "conditions": {
+        "requires_any": [
+          "impact",
+          "combat",
+          "action"
+        ],
+        "excludes_any": []
+      },
+      "applicability_basis": "curator_inference",
+      "evidence_claim_ids": [
+        "SK-003-IMPACT",
+        "SK-003-EVENT",
+        "SK-003-LAYER"
+      ],
+      "related": [
+        {
+          "item_id": "ESS-17",
+          "relation": "related"
+        }
+      ]
+    },
+    "FEEL-08": {
+      "conditions": {
+        "requires_any": [
+          "combat",
+          "impact",
+          "action"
+        ],
+        "excludes_any": [
+          "no_combat"
+        ]
+      },
+      "applicability_basis": "curator_inference",
+      "evidence_claim_ids": [
+        "SK-047-COLLISION"
+      ],
+      "related": []
+    },
+    "FEEL-T01": {
+      "conditions": {
+        "requires_any": [
+          "combat",
+          "impact",
+          "action"
+        ],
+        "excludes_any": [
+          "no_combat"
+        ]
+      },
+      "applicability_basis": "curator_inference",
+      "evidence_claim_ids": [
+        "SK-047-STRENGTH",
+        "SK-047-MULTIPLAYER"
+      ],
+      "related": []
+    },
+    "FEEL-T02": {
+      "conditions": {
+        "requires_any": [
+          "combat",
+          "impact",
+          "action"
+        ],
+        "excludes_any": [
+          "no_combat"
+        ]
+      },
+      "applicability_basis": "curator_inference",
+      "evidence_claim_ids": [
+        "SK-047-COLLISION",
+        "SK-047-GROUNDED",
+        "SK-047-MULTIPLAYER"
+      ],
+      "related": []
+    },
+    "FEEL-T03": {
+      "conditions": {
+        "requires_any": [
+          "combat",
+          "impact",
+          "action"
+        ],
+        "excludes_any": [
+          "no_combat"
+        ]
+      },
+      "applicability_basis": "curator_inference",
+      "evidence_claim_ids": [
+        "SK-047-BLEND",
+        "SK-047-CREEP"
+      ],
+      "related": []
+    },
+    "FEEL-T04": {
+      "conditions": {
+        "requires_any": [
+          "combat",
+          "impact",
+          "action"
+        ],
+        "excludes_any": [
+          "no_combat"
+        ]
+      },
+      "applicability_basis": "curator_inference",
+      "evidence_claim_ids": [],
+      "related": []
+    },
+    "ANIM-03": {
+      "conditions": {
+        "requires_any": [
+          "combat",
+          "impact",
+          "action"
+        ],
+        "excludes_any": [
+          "no_combat"
+        ]
+      },
+      "applicability_basis": "curator_inference",
+      "evidence_claim_ids": [],
+      "related": []
+    },
+    "FEEL-17": {
+      "conditions": {
+        "requires_any": [
+          "knockback",
+          "combat",
+          "fighting"
+        ],
+        "excludes_any": [
+          "no_combat"
+        ]
+      },
+      "applicability_basis": "curator_inference",
+      "evidence_claim_ids": [
+        "SK-145-PARAMETERS"
+      ],
+      "related": []
+    },
+    "FEEL-T14": {
+      "conditions": {
+        "requires_any": [
+          "knockback",
+          "mechanics:launch",
+          "genre:platform fighter"
+        ],
+        "excludes_any": [
+          "no_combat"
+        ]
+      },
+      "applicability_basis": "curator_inference",
+      "evidence_claim_ids": [
+        "SK-145-PARAMETERS"
+      ],
+      "related": []
+    },
+    "FEEL-T15": {
+      "conditions": {
+        "requires_any": [
+          "mechanics:multi-hit",
+          "mechanics:multihit",
+          "mechanics:flurry"
+        ],
+        "excludes_any": [
+          "no_combat"
+        ]
+      },
+      "applicability_basis": "curator_inference",
+      "evidence_claim_ids": [
+        "SK-145-MULTIHIT"
+      ],
+      "related": []
+    },
+    "ESS-T20": {
+      "conditions": {
+        "requires_any": [
+          "knockback",
+          "mechanics:launch",
+          "genre:platform fighter"
+        ],
+        "excludes_any": [
+          "no_combat"
+        ]
+      },
+      "applicability_basis": "curator_inference",
+      "evidence_claim_ids": [
+        "SK-145-PARAMETERS"
+      ],
+      "related": []
+    },
+    "FEEL-18": {
+      "conditions": {
+        "requires_any": [],
+        "excludes_any": []
+      },
+      "applicability_basis": "curator_inference",
+      "evidence_claim_ids": [
+        "SK-005-RATE"
+      ],
+      "related": []
+    },
+    "TECH-04": {
+      "conditions": {
+        "requires_any": [],
+        "excludes_any": []
+      },
+      "applicability_basis": "curator_inference",
+      "evidence_claim_ids": [
+        "SK-005-SIMULATION"
+      ],
+      "related": []
+    },
+    "TECH-05": {
+      "conditions": {
+        "requires_any": [],
+        "excludes_any": []
+      },
+      "applicability_basis": "curator_inference",
+      "evidence_claim_ids": [
+        "SK-005-TARGET"
+      ],
+      "related": []
+    },
+    "FEEL-T22": {
+      "conditions": {
+        "requires_any": [],
+        "excludes_any": []
+      },
+      "applicability_basis": "curator_inference",
+      "evidence_claim_ids": [
+        "SK-005-RATE"
+      ],
+      "related": []
+    },
+    "UI-01": {
+      "conditions": {
+        "requires_any": [],
+        "excludes_any": []
+      },
+      "applicability_basis": "curator_inference",
+      "evidence_claim_ids": [],
+      "related": [],
+      "concept_group": "noninteractive-time-control"
+    },
+    "PLAN-21": {
+      "conditions": {
+        "requires_any": [],
+        "excludes_any": []
+      },
+      "applicability_basis": "curator_inference",
+      "evidence_claim_ids": [],
+      "related": [],
+      "concept_group": "noninteractive-time-control"
+    }
+  },
+  "corrections": [
+    {
+      "correction_id": "COR-SK-003-000024",
+      "segment_id": "youtube:OdVkEOzdCPw:t000024",
+      "document_id": "youtube:OdVkEOzdCPw",
+      "status": "unresolved",
+      "proposed_text": null,
+      "reason": "Duplicated subtitle phrase and joined word.",
+      "review_status": "unreviewed_ocr"
+    },
+    {
+      "correction_id": "COR-SK-003-000098",
+      "segment_id": "youtube:OdVkEOzdCPw:t000098",
+      "document_id": "youtube:OdVkEOzdCPw",
+      "status": "unresolved",
+      "proposed_text": null,
+      "reason": "Joined words in retained OCR.",
+      "review_status": "unreviewed_ocr"
+    },
+    {
+      "correction_id": "COR-SK-004-000249",
+      "segment_id": "youtube:PBRt2D2YN44:t000249",
+      "document_id": "youtube:PBRt2D2YN44",
+      "status": "unresolved",
+      "proposed_text": null,
+      "reason": "Unreadable OCR tail; do not guess lost wording.",
+      "review_status": "unreviewed_ocr"
+    },
+    {
+      "correction_id": "COR-SK-004-000256",
+      "segment_id": "youtube:PBRt2D2YN44:t000256",
+      "document_id": "youtube:PBRt2D2YN44",
+      "status": "unresolved",
+      "proposed_text": null,
+      "reason": "Unreadable OCR prefix; source video needed.",
+      "review_status": "unreviewed_ocr"
+    },
+    {
+      "correction_id": "COR-SK-004-000282",
+      "segment_id": "youtube:PBRt2D2YN44:t000282",
+      "document_id": "youtube:PBRt2D2YN44",
+      "status": "unresolved",
+      "proposed_text": null,
+      "reason": "Missing or corrupt source wording; do not infer sales figures.",
+      "review_status": "unreviewed_ocr"
+    },
+    {
+      "correction_id": "COR-SK-006-000412",
+      "segment_id": "youtube:FXqEykD5Ub4:t000412",
+      "document_id": "youtube:FXqEykD5Ub4",
+      "status": "unresolved",
+      "proposed_text": null,
+      "reason": "Duplicated sentence in retained OCR.",
+      "review_status": "unreviewed_ocr"
+    },
+    {
+      "correction_id": "COR-SK-006-000562",
+      "segment_id": "youtube:FXqEykD5Ub4:t000562",
+      "document_id": "youtube:FXqEykD5Ub4",
+      "status": "unresolved",
+      "proposed_text": null,
+      "reason": "Corrupted game-essence wording; original audiovisual verification pending.",
+      "review_status": "unreviewed_ocr"
+    }
+  ]
+}

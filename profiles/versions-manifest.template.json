@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "purpose": "Template for a future reviewed optional acquisition/OCR environment, not a tested lockfile",
+  "original_inherited_acquisition_provenance": "unknown_not_reconstructed",
+  "offline_runtime": {
+    "python_baseline": "3.10 or later",
+    "fixture_tested_python": "3.12.3",
+    "third_party_packages_required": false
+  },
+  "optional_acquisition": {
+    "yt-dlp": {"tested_version": null, "status": "pending_network_acquisition_test"},
+    "node": {"tested_version": null, "status": "pending_network_acquisition_test"},
+    "ffmpeg": {"tested_version": null, "status": "pending_real_decode_test"},
+    "ffprobe": {"tested_version": null, "status": "pending_real_asset_probe_test"}
+  },
+  "optional_ocr": {
+    "rapidocr": {"tested_version": null, "status": "pending_real_ocr_and_Rec.model_path_configuration_test"},
+    "onnxruntime": {"tested_version": null, "status": "pending_real_ocr_test"},
+    "numpy": {"tested_version": null, "status": "pending_real_ocr_test"}
+  },
+  "recognition_model": {
+    "identity": null,
+    "sha256": null,
+    "license_and_origin": null,
+    "status": "unresolved_until_verified_local_asset_is_supplied",
+    "default_model_cache_reuse": false
+  },
+  "dependency_artifact_hashes": [],
+  "frozen_listing_sha256": null,
+  "video_asset_manifest": null,
+  "reproducibility_status": "partial_safety_controls_only_not_fully_reproduced_or_pinned"
+}

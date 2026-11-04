@@ -1,0 +1,11 @@
+{
+  "audience": "Newcomers and experienced local multiplayer players",
+  "genre": "platform fighter",
+  "mechanics": ["combat", "fighting", "knockback", "jump", "impact", "multiplayer"],
+  "excluded_mechanics": [],
+  "desired_tension": "A readable contest with short recovery and room for player counterplay",
+  "core_appeal": "Launching opponents while improvising movement and attacks",
+  "platform": "Desktop prototype with gamepad support",
+  "input": "Directional stick and a small button set",
+  "stage": "prototype"
+}

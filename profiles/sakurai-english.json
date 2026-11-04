@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "profile_id": "sakurai-english-subtitle-bar-v1",
+  "source_id": "sakurai:creating-games",
+  "language": "en",
+  "channel_url": "https://www.youtube.com/@sora_sakurai_en/videos",
+  "listing": {"order": "newest_first", "exclude_title_contains": ["Compilation"]},
+  "download": {"format": "298/bv*[height<=720][ext=mp4]/bv*[height<=720]"},
+  "ocr": {
+    "sample_fps": 4,
+    "width": 1280,
+    "height": 720,
+    "strip_y0": 612,
+    "strip_height": 108,
+    "text_threshold": 190,
+    "min_text_pixels": 400,
+    "change_fraction": 0.12,
+    "bar_dark_percentile": 70,
+    "bar_dark_threshold": 90
+  },
+  "limitations": "English burned-in subtitle assumptions retained from the old script, not a generic importer or visually verified crop."
+}

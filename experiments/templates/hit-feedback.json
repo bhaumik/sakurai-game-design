@@ -1,0 +1,19 @@
+{
+  "experiment_id": "template:hit-feedback",
+  "claim_type": "application_hypothesis",
+  "status": "not_run",
+  "title": "Does contact feedback improve perceived weight without harming responsiveness?",
+  "source_claim_ids": ["SK-003-IMPACT", "SK-047-COLLISION", "SK-047-MULTIPLAYER"],
+  "matching_context": "An action game with discrete attack contact. Recheck multiplayer timing and accessibility constraints.",
+  "project_id": null,
+  "build_ids": [],
+  "hypothesis": "A carefully tuned contact pause may make important hits more legible, while excessive pause may harm flow.",
+  "parameters": {"contact_pause": null, "shake_amplitude": null, "per_move_multiplier": null},
+  "comparison": "Compare baseline with one contact-pause change. Hold damage, knockback, attack timing, audio, and collision fixed. Test shake separately; move only rendering, not collision.",
+  "measurements": ["Player description of perceived weight", "Perceived response and interruption", "Ability to identify what hit", "Misses or collision regressions", "Motion discomfort"],
+  "failure_signals": ["Players perceive the game as laggy", "Rapid or multiplayer contacts interrupt flow", "Visual shake changes collision", "Readability or comfort becomes worse"],
+  "participants_context": null,
+  "observations": [],
+  "decision": null,
+  "limitations": "No test performed. Source says multiplayer hit stop is reduced but provides no general duration or shake amplitude."
+}

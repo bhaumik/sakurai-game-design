@@ -1,0 +1,11 @@
+{
+  "audience": "novice casual players",
+  "genre": "non-fighting puzzle adventure",
+  "mechanics": ["exploration", "simple puzzles"],
+  "excluded_mechanics": ["combat", "reversal", "anti_air"],
+  "desired_tension": "gentle challenge without execution barriers",
+  "core_appeal": "discovery and accessible puzzles",
+  "platform": "tablet",
+  "input": "touch",
+  "stage": "prototype"
+}

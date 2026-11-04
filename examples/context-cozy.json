@@ -1,0 +1,11 @@
+{
+  "audience": "novice casual players",
+  "genre": "cozy narrative gardening",
+  "mechanics": ["gardening", "dialogue", "exploration"],
+  "excluded_mechanics": ["combat", "time_pressure"],
+  "desired_tension": "gentle discovery, no time pressure",
+  "core_appeal": ["story", "self-expression", "relaxation"],
+  "platform": "PC",
+  "input": ["mouse", "keyboard"],
+  "stage": "prototype"
+}

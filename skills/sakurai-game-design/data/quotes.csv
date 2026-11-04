@@ -60,7 +60,6 @@ Development and marketing are multiplicative. The success of one is proportional
 "No matter how much you want to catch your players by surprise, don't paint a picture that doesn't represent your game!",101,Paint an Accurate Picture of Your Game,00:33,honest representation
 Even a tiny amount of shake can give attacks a drastically different impact.,103,Screen Shake,03:07,screen shake
 Players press buttons because they want something from the game.,104,Don't Be Unresponsive,01:35,responsiveness
-Players press buttons because they want something from the game.,104,Don't Be Unresponsive,01:35,responsiveness
 "My point is, it's not a good idea to keep player and enemy strength in direct proportion.",105,Mountain Climbing Is More Than Just Climbing,00:25,difficulty curve
 "There should always be an ideal spec to start, and from there you can course-correct to maximize cost effectiveness.",109,"Don't Rely on a ""Plan B""",00:54,proposals
 Fonts and UI are both a part of a game's worldbuilding. You might even say they're the package that the world is wrapped in.,111,Menus Define Your World,01:23,UI style
@@ -72,8 +71,7 @@ It's important to consider where players will look while they're playing your ga
 "Take a lot in, put a lot out. Stay active with both, and I think you can achieve great things.",126,"Broad Input, Broad Output",01:34,input and output
 "Compared to text, pictures can be recognized much faster, and parsed largely through intuition.",133,Color-Coding Your Game,01:28,icons and color
 "What downsides will you accept, and what upsides will you gain? I'd say this kind of thinking can be effective in any game.",134,Game Essence in Shooting Games,01:54,trade-offs
-"I considered 60 FPS gameplay to be an absolute must, so we pared things down until that was realized.",135,Super Smash Bros. for 3DS / Wii U,08:33,hard targets and trimming
-"I considered 60 FPS gameplay to be an absolute must, so we pared things down until that was realized.",135,Super Smash Bros. for 3DS / Wii U,08:33,frame rate
+"I considered 60 FPS gameplay to be an absolute must, so we pared things down until that was realized.",135,Super Smash Bros. for 3DS / Wii U,08:33,hard targets and trimming; frame rate
 "If people get the idea that a game has to be completely bug-free, it will end up practically impossible to release games.",136,Bug Testing Never Ends,03:37,bug testing
 Don't make it look like a fight between live action and animation.,138,A Fight Between Live Action and Animation,03:43,style unification
 "But when you're working with computers, sometimes there's no telling what you might get.",141,Unexpected Results,03:13,hardware surprises
@@ -96,7 +94,6 @@ A move with high risk should deliver a big reward.,159,The Shoryuken Command,03:
 There's little point in writing an email asking for more clang or boom.,185,Giving Feedback for Sound Effects,01:03,sound feedback
 "And please, get to the actual game as soon as possible!",186,Show the Actual Game!,00:50,trailers
 "Come storm or dark of night, the one thing you should never change is your trajectory toward that light.",187,Staying True to Your Concept,01:03,concept
-"Come storm or dark of night, the one thing you should never change is your trajectory toward that light.",187,Staying True to Your Concept,01:03,concept
 "In a game, players need to feel to some extent like they're responsible for their own failure.",189,Randomness Spices Games Up,01:22,randomness and fairness
 "Since decisions set the trajectory of your project, frequent slight adjustments can ensure that things stay on the right path.",191,Don’t Put Decisions Off,01:55,course-correction
 "By waiting until right when an attack is going to hit you, you can experience the fun of turning massive risk into massive reward.",193,Game Essence in Action Games,02:03,last-moment timing
@@ -113,7 +110,6 @@ Games where the person with the most skill keeps winning every single time just 
 "When crafting attack animations, it's important that the animators are always aware of when and where collision occurs.",225,Always Keep Attack Collision in Mind,01:52,collision
 Targeting and market research data is built on everything that's come before. They don't show the path to what comes next.,226,Targeting and Market Research,01:33,market research
 "This is important, so I'll say it again: don't explain using the same words!",229,Adding Help Text to Menus,00:54,help text
-"no matter how much you improve your game through patches, it won't mean anything if your players have already given up on the game.",231,Online Updates,03:31,launch quality
 "no matter how much you improve your game through patches, it won't mean anything if your players have already given up on the game.",231,Online Updates,03:31,launch quality
 "With games in particular, players really want to take control and find out about your game— so it's no time for ambling along. Let them play, first thing!",235,Start with the Climax,01:00,openings
 Quantity over quality— save the pruning for later.,237,When Ideas Won't Come,01:25,ideation

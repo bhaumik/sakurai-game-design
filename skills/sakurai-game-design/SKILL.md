@@ -1,122 +1,76 @@
 ---
 name: sakurai-game-design
-description: "Game design intelligence distilled from all 261 episodes of Masahiro Sakurai's 'Masahiro Sakurai on Creating Games' (Kirby, Super Smash Bros., Kid Icarus: Uprising). Use when designing, tuning, reviewing or planning a game or game feature: core loop and risk/reward, combat and hit feel (hitstop, screen shake, attack animation, cancels), jumps and controls, difficulty and balance, enemies and bosses, rewards and progression, pacing, tutorials and onboarding, cutscenes, UI/HUD/menus, readability of effects/visuals/audio, playtesting, scoping a game or game jam, directing a team, or trailers and reveals. Searchable local data: 302 principles, 291 techniques, 114 review lenses, 130 quotes, 230 glossary terms, plus notes and transcripts for all 261 episodes."
+description: "Search attributed local game-design evidence derived from Masahiro Sakurai on Creating Games. Use when designing, tuning, reviewing or planning player-facing mechanics, controls, difficulty, hit feel, pacing, UI, visual/audio clarity, scope, playtests or production; also use for questions about the indexed Sakurai material. Retrieve contextual principles, techniques, lenses and short quotes with source locators. Establish project fit before recommending changes; this is not a universal checklist or an emulation of Sakurai."
 ---
 
 # Sakurai Game Design
 
-Masahiro Sakurai's design knowledge as a searchable knowledge base: 302 principles (each with why, how to apply, anti-pattern, example and source episodes), 291 implementable techniques, 114 review lenses, 130 verbatim quotes and 230 glossary terms. All of it is drawn from the official English subtitles of his 261-episode YouTube series, with per-episode notes and full transcripts for checking the source.
+Use this local reference as evidence for a particular project, not as authority to replace its premise. The existing datasets cover principles, techniques, review lenses, quotes, glossary terms and episode notes/transcripts. Notes and design records are synthesis. Retained English transcript text came through third-party OCR of on-screen subtitles; do not assert that every transcript or quote is accurate or audiovisually verified.
 
-## When to apply
+## Establish context and source
 
-Use this skill when the task involves **how a game plays, feels, reads or gets made**: designing a mechanic, enemy, boss, level, reward or mode; tuning combat feel, jumps, difficulty or balance; reviewing a build or design doc; planning scope, a prototype or a game jam; writing specs for teammates; designing menus, HUD, tutorials or cutscenes; judging effects, animation or audio; or answering "what would Sakurai do?"
+Ask for the target player's experience, genre, active and excluded mechanics, intended tension, core appeal, platform/input and development stage when these affect the decision. Preserve the user's intended experience. A non-combat gardening story does not need danger, escalating pressure or hitstop merely because a general design rule mentions them.
 
-Skip it for engine plumbing, build systems, networking code or anything that doesn't change what the player experiences, unless it affects responsiveness, frame rate or the tuning pipeline (those are covered under `tech`).
+Select the requested corpus with `--source`. The imported legacy records belong to `sakurai:creating-games`. Pending sources, including Isbister material without supplied/imported chapters, cannot support author-specific findings. Treat `source_mismatch` as a limitation, not permission to answer another author's question using Sakurai material. Do not claim to speak as Sakurai or predict what he personally would do.
 
-## Design priorities
+Read `study-guide/01-how-sakurai-thinks.md` for tensions and source context before open-ended application. Use its caveats, not a universal hierarchy of mandatory checks. In particular, audience and core appeal can qualify risk/reward advice; not every game seeks challenge.
 
-*Work top-down: a game that fails priority 1 can't be saved by priority 7. Query an area with `--area <area>`. `references/quick-reference.md` lists every principle by area.*
+## Run local retrieval
 
-| # | Category | Impact | Area | Key checks (must have) | Anti-patterns (avoid) |
-|---|---|---|---|---|---|
-| 1 | Game essence | CRITICAL | `essence` | Risk and reward side by side (ESS-01); every action has an opposing downside (ESS-02); riskiest play pays most (ESS-03); stress then release into growth (ESS-04) | Copying a mechanic without knowing why it's fun (ESS-05); strong options with no counterweight |
-| 2 | Audience and kindness | CRITICAL | `balance` | Target player chosen first (BAL-01); beginners protected early (BAL-02); no permanent stuck points (BAL-03); tuned with a handicap, then easier (BAL-04) | Tuning difficulty to the dev team; "average" options with no peaks or valleys (BAL-06) |
-| 3 | Player's time | CRITICAL | `planning`, `ui` | Core fun within the first minutes (PLAN-03); control time maximized (PLAN-04); skip and pause anything non-interactive (UI-01); back in control within seconds of failing (BAL-05, FEEL-06) | Long intros, slow fades, unskippable cutscenes, waits that aren't play |
-| 4 | Feel and response | CRITICAL | `feel`, `animation` | Press frame visibly registers (FEEL-01, ANIM-01); stops on big moments (FEEL-02); hits connect where they look like they do (FEEL-04, ANIM-02); lag hunted down (FEEL-03) | Dead button presses; impact with no stop, shake or sound; testing on laggy TVs |
-| 5 | Clarity | HIGH | `visuals`, `ui` | Gameplay elements stand out from decoration (VIS-01); characters visible inside effects (VIS-02); color never the only signal (VIS-03); silhouettes read in solid black (VIS-04); playable without reading (UI-05) | Additive-only effects; heavy blur or depth of field; style beating legibility |
-| 6 | Rewards and structure | HIGH | `essence`, `planning` | Rewards designed early and fit the concept; next reward visible; difficulty shaped like a mountain trail, not a ramp | Rewards with nothing to spend them on; enemies scaled in lockstep with the player |
-| 7 | Specs and tuning pipeline | HIGH | `tech`, `planning` | Tunables outside code (TECH-01); speed independent of frame rate (TECH-04); frame-rate target held (TECH-05); timings in frames, speeds in units | Magic numbers in code; specs a teammate can't implement without asking |
-| 8 | Exaggeration and polish | MEDIUM | `animation`, `visuals`, `audio` | "Too much is just right" poses; impact sounds that hit instantly with a short tail (AUD-02); mixing by relevance (AUD-01) | Interpolation softening key poses; realistic-but-weak motion; long reverb tails |
-| 9 | Direction and team | MEDIUM | `team`, `craft` | One director decides (TEAM-01); concept steady, small corrections (TEAM-02); problems raised early with a fix (TEAM-03); decisions on the spot (TEAM-04) | Majority votes on creative calls; reviews left overnight; feedback relayed through one person |
-| 10 | Marketing and shipping | LOW | `marketing` | Honest images (MKT-02); trailers reach gameplay fast (MKT-03); ship as if no patch is coming (MKT-04, TECH-17) | Trailers that open on logos and story; planning to fix it in a patch |
-
-Some advice pulls in two directions (depth vs. reach, a steady concept vs. course correction, exaggeration vs. faithfulness to a source). Read the "Tensions to hold" table in `study-guide/01-how-sakurai-thinks.md` before applying a principle outside its context.
-
----
-
-## Running the search tool
-
-The tool and data live in this skill's directory. Use the full path; don't assume a working directory:
+Use the full path to `<skill-base>/scripts/search.py`, or the repository path below. Python 3 is sufficient; no runtime installation is needed.
 
 ```bash
-python3 "${CLAUDE_PLUGIN_ROOT}/skills/sakurai-game-design/scripts/search.py" "<query>" [--domain <dataset>] [--area <area>] [-n N]
+S=skills/sakurai-game-design/scripts/search.py
+python3 "$S" "hits feel weak" --context examples/context-sword.json -n 2 --json
+python3 "$S" "beginner difficulty" --domain techniques --area balance
+python3 "$S" --review "dialogue skip pause" --context examples/context-cozy.json --area ui -n 2
+python3 "$S" "hit stop" --domain quotes --source sakurai
+python3 "$S" --episode 47 --source sakurai
+python3 "$S" --transcript 47 --source sakurai
+python3 "$S" --areas
 ```
 
-If `CLAUDE_PLUGIN_ROOT` isn't set (for example when working inside this repo), use the skill's base directory shown when the skill loads: `<base>/scripts/search.py`. It needs Python 3 and has no dependencies.
+Pass `--context FILE` with a JSON object whose allowed keys are `audience`, `genre`, `mechanics`, `excluded_mechanics`, `desired_tension`, `core_appeal`, `platform`, `input` and `stage`; values are strings or arrays of strings. Consult `docs/search-contract.md` from the repository for complete validation, JSON fields and command behavior.
 
-| Command | Use it for |
-|---|---|
-| `search.py "<2-5 words>"` | Best matches across principles, techniques and lenses |
-| `search.py "<query>" --domain principles\|techniques\|lenses\|episodes\|quotes\|glossary` | One dataset |
-| `search.py "<query>" --area feel` | Restrict to a design area: `essence balance planning feel animation visuals audio ui team craft marketing tech case-study` |
-| `search.py --review "<feature or design, in a sentence>"` | A design-review brief: lenses, prioritized principles, techniques, anti-patterns, episodes to read |
-| `search.py --episode 47` / `--transcript 47` | An episode's notes, or its full transcript |
-| `search.py --areas` | Areas and their principle counts |
+Select one dataset with `--domain principles|techniques|lenses|episodes|quotes|glossary`. Review honors the same selector. Use `--area essence|balance|planning|feel|animation|visuals|audio|ui|team|craft|marketing|tech|case-study` only with principles, techniques or lenses. Quote, glossary and episode area filters are explicitly unsupported. `-n` is a positive displayed limit per dataset, including review. Do not combine positional queries with review/document/list modes.
 
-### Query contract
+## Query and interpretation
 
-- Build each query around **one intent in 2–5 plain words**, such as `"hitstop sword"`, `"beginner difficulty"`, `"menu help text"` or `"boss strategy reward"`.
-- Check that the top result's area fits the question. **Retry once** with narrower words or an explicit `--area` if results are off-topic.
-- If nothing matches, say so and fall back to the priority table above, labeled as general guidance. **Never present a 0-result search as Sakurai's view**, and never invent Sakurai quotes, numbers or examples.
-- The series has gaps. Sakurai gives no hitstop frame counts, no shake amplitudes and nothing on input buffering or coyote time. When you need a number he didn't give, say so and label your value as a starting point to tune.
+Query one concern in a few plain words, such as `hitstop sword`, `beginner difficulty` or `menu help text`. Keep explicit exclusions in the brief. Explicit `no combat`, `non-fighting` and `no time pressure` text is also safely recognized; genre labels alone are not exclusions.
 
-## Workflows
+Inspect status, matched fields, scope reason and supporting documents. Warning-only matches are not recipes for the current game. Scores rank lexical evidence within a dataset; do not compare scores across datasets as calibrated confidence. Retry once with narrower words or an appropriate area when results miss the intent. If evidence remains insufficient, report the limitation. Do not substitute a universal priority table, a combat example or invented numbers.
 
-### A. Designing something new (game, mechanic, enemy, boss, mode, menu)
+Treat `applicable` as an established limited scope, not proof that a change is desirable. Treat `needs_context` as a question or conditional option. Treat `not_applicable` as a skipped finding with its reason. Never require changes from conditional/skipped lenses. Missing metadata is a data error, not a genuine no-match result.
 
-1. **Audience and essence first.** Run `search.py "<the thing> risk reward" --area essence`, plus `--area balance` for who it's for. Write down the target player, the risk, the reward and how close together they are.
-2. **Area detail.** Query the relevant areas: `feel`/`animation` for actions, `visuals`/`audio` for presentation, `ui` for menus and HUD, `planning` for structure, pacing, tutorials and rewards.
-3. **Techniques.** Run `search.py "<concern>" --domain techniques` for concrete recipes, such as hit-stop poses, screen-shake presets, the explosion phases or the jump model.
-4. **Spec it.** Timings go in frames, speeds in explicit units, and every tunable number in a parameter (TECH-01, PLAN specs).
-5. **Present the design** with principle IDs and episode numbers next to each decision, so a teammate can read the reasoning in the episode notes.
+Recognize `source_mismatch`, `unsupported_topic`, `partial_match` and `no_match` separately. The index has documented gaps for input buffering and coyote time. Do not fill these gaps with generic lag advice or attribute an outside technical recipe to Sakurai. Do not assume this means every source lacks the topic. The library is not a comprehensive source of tuning constants; use only constants actually supported by a cited passage and label all other values as experimental starting points.
 
-### B. Reviewing a design or build
+## Apply evidence to a design
 
-1. Run `search.py --review "<one-sentence description of the feature>"`.
-2. For **every lens** returned, state what the design does now, what the principle says, and the concrete change.
-3. Also run the pre-ship questions in `study-guide/checklists.md` (all CRITICAL principles as yes/no questions).
-4. Report findings ranked by player impact (CRITICAL, then HIGH, then MEDIUM). For each one, give the issue, the principle ID and episodes, the fix, and how to verify the fix.
-5. Keep **Sakurai's stated position** (cite it) separate from **your extrapolation** (label it).
+For a new feature, establish audience and intended experience, query only relevant concerns, check conditions and read cited evidence. Identify the observed design problem before selecting a technique. Specify tunable parameters and verification appropriate to the platform and mechanic. Cite entity IDs and document links alongside decisions.
 
-### C. Tuning game feel
+For a review, retrieve a contextual brief and evaluate applicable findings before static priority. Summarize the observed behavior, source-grounded point, project-specific synthesis and proposed test separately. Rank accepted findings by impact on this player and goal. Group UI-01/PLAN-21 and BAL-01/CASE-01 when they address one underlying concern; preserve exceptions and do not count overlapping synthesis as independent confirmation. Scope any study-guide checklist to the game rather than requiring every item.
 
-Search techniques by symptom: `"hits feel weak"`, `"jump floaty"`, `"attack unresponsive"`, `"screen hard to read"`. Apply one change at a time and compare builds with and without it, which is Sakurai's own method in several episodes.
+For tuning, compare one change at a time against a baseline. Consider accessibility and readability costs as well as the intended effect. A sword-hit experiment may test hitstop; a dialogue experience may instead test text pacing, player-controlled skipping or clarity. Do not require impact stop/shake/flash, risk/reward or failure pressure for every genre.
 
-### D. Planning and scoping (prototype, proposal, game jam)
+For an attributed answer, retrieve the relevant principles or short quotes, then inspect the linked note and transcript passage. Use claim-level locators when available. If only episode-level sources are joined, explicitly state that passage-level precision is unavailable. Inspect original audiovisual material when needed for exact wording or unresolved OCR defects. Keep public quotations short and link the original source.
 
-Query `--area planning` and `--area team`. The core moves are: fix one concept and steer by it; prove the core fun in a bare prototype; write proposals hot, fast and brief; commit to one plan with no Plan B; cut anything that doesn't serve the concept; put the climax first. Chapter 04 of the study guide is the long form.
+## Preserve evidence boundaries
 
-### E. "What does Sakurai say about X?"
+Distinguish **source statement**, **retrieved synthesis**, **curator applicability interpretation** and **proposed experiment** in the response. Retain qualifiers and linked counterpoints. `retained_text_checked` validates agreement with inherited text, not video, original OCR output or Japanese narration. Read document/segment review statuses and suspect flags before making stronger claims. Do not guess corrections to defective retained text.
 
-Search principles and quotes (`--domain quotes`), then open the cited episode notes (`--episode N`). Read the transcript (`--transcript N`) when wording or nuance matters. Quote only lines that appear in `quotes.csv` or a transcript, and keep them short.
+Before delivery, verify that the recommendation serves the supplied audience and core appeal, respects exclusions, has adequate source support and can be tested. State unresolved context or source gaps instead of inventing a mandatory fix.
 
 ## References
 
-| File (relative to the plugin root) | Contents |
+| Repository-relative file | Use |
 |---|---|
-| `study-guide/01-how-sakurai-thinks.md` | The 12 habits of mind, tensions, the Sakurai loop. **Read first for any open-ended design task.** |
-| `study-guide/02`–`14-*.md` | Chapters by area: principles, techniques and numbers, common mistakes, review questions, exercises, watch list |
-| `study-guide/checklists.md` | Pre-ship CRITICAL questions plus review questions per area |
-| `study-guide/glossary.md` | Sakurai's terms (game essence, push and pull, hit stop, lead-in, follow-through, …) |
-| `skills/sakurai-game-design/references/quick-reference.md` | Every principle, one line each, by area |
-| `skills/sakurai-game-design/references/techniques.md` | Every technique in full |
-| `episodes/notes/NNN-*.md`, `episodes/transcripts/NNN-*.md` | Per-episode study notes and full subtitles |
+| `docs/search-contract.md` | CLI modes, contextual scope checks, failure states and JSON contract |
+| `study-guide/01-how-sakurai-thinks.md` | Interpretive habits, tensions and contextual caveats |
+| `study-guide/02-*.md` through `14-*.md` | Area chapters, examples and exercises |
+| `study-guide/checklists.md` | Optional questions to select only after establishing fit |
+| `skills/sakurai-game-design/references/quick-reference.md` | Principle index |
+| `skills/sakurai-game-design/references/techniques.md` | Existing technique synthesis |
+| `episodes/notes/NNN-*.md`, `episodes/transcripts/NNN-*.md` | Notes and retained OCR transcript text |
+| `knowledge/catalogue.json`, `claims.json`, `annotations.json`, `segments.json` | Source identity, limited claim evidence, context interpretations and retained-text pointers |
 
-## Pre-delivery checklist (any game feature)
-
-Before calling a feature done, answer these 10 questions. They are the Sakurai loop from chapter 01.
-
-- [ ] **Audience:** who is it for, and is its risk level right for them? (BAL-01)
-- [ ] **Essence:** is the reward right next to the risk? (ESS-01)
-- [ ] **Rewards:** can the player see what they're working toward, and does it fit the concept?
-- [ ] **Feel:** does the press frame react, and does the impact frame stop, shake, flash and sound? (FEEL-01, FEEL-02)
-- [ ] **Clarity:** in a frozen screenshot of the busiest moment, can a newcomer tell what's happening? (VIS-01, VIS-02)
-- [ ] **Time:** is any part waiting rather than playing, and can it be cut or skipped? (PLAN-04, UI-01)
-- [ ] **Distinctness:** does each option have a two-word identity with strengths *and* weaknesses? (BAL-06)
-- [ ] **Spec:** are timings in frames, speeds in units and tunables outside code? (TECH-01)
-- [ ] **Test:** was it played with a handicap and by fresh players watched in silence, then made easier? (BAL-04)
-- [ ] **Trim:** does anything here not serve the concept? (PLAN-01)
-
-## Source and rights
-
-All content derives from *Masahiro Sakurai on Creating Games* (Sora Ltd.). Notes and principles are paraphrased. Transcripts are the official English subtitles, read from the videos by OCR for private study. Don't paste long transcript passages into public output; quote briefly and link the episode.
+Respect source rights. No new permission over inherited content is granted. Do not redistribute long transcript passages or present a pending book as an imported corpus.

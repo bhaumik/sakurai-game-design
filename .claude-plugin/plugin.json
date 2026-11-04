@@ -1,11 +1,11 @@
 {
   "name": "sakurai-game-design",
-  "description": "Game design intelligence distilled from Masahiro Sakurai's 'Masahiro Sakurai on Creating Games' (261 episodes). Searchable principles, game-feel techniques, review lenses, quotes and per-episode notes, plus a design-review workflow. Use when designing, tuning, critiquing or planning games and game features.",
-  "version": "1.0.0",
+  "description": "Attributed Sakurai game-design reference with context-aware retrieval, evidence locators, and design-review candidates. Includes the inherited 261-episode study library with curated applicability and provenance additions. Use when designing, tuning, reviewing, or planning games, while preserving audience, mechanics, and source boundaries.",
+  "version": "1.1.0",
   "author": {
     "name": "flossbud"
   },
   "license": "UNLICENSED",
-  "keywords": ["game-design", "sakurai", "game-feel", "balance", "level-design", "combat", "ux"],
+  "keywords": ["game-design", "sakurai", "game-feel", "balance", "level-design", "combat", "ux", "contextual-evidence"],
   "skills": "./skills/"
 }
